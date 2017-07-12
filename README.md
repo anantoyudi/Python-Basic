@@ -1,2 +1,2 @@
 # python-basic
-Python Basic Tutorial
+These codes are available for basic Python learning.
