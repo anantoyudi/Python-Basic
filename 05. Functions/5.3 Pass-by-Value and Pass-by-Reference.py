@@ -31,3 +31,15 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+"""
+Output:
+Sebelum pemanggilan fungsi
+a = 5
+
+Nilai di dalam fungsi
+p = 500
+
+Setelah pemanggilan fungsi
+a = 5
+"""
