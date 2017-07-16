@@ -31,3 +31,38 @@ Output:
 name: yudi
 Usia: 31
 """
+
+"""
+Contoh lain dari penggunaan paramter default dapat kita lihat pada code berikut
+"""
+
+def cetakDafter(daftar=[], urut=False):
+    if urut:
+        daftar.sort()
+    for i in daftar:
+        print(i, end=" ")
+    print()
+    return
+
+def main():
+    # membuat list
+    li = [10, 5, 9, 4, 8, 3, 7]
+
+    # memanggil fungsi cetakDafter()
+    print("Output:")
+    print("Data tidak terurut")
+    cetakDafter(li)
+
+    print("Data terurut")
+    cetakDafter(li, True)
+
+if __name__=="__main__":
+    main()
+
+"""
+Output:
+Data tidak terurut
+10 5 9 4 8 3 7 
+Data terurut
+3 4 5 7 8 9 10 
+"""
